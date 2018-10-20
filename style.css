@@ -241,7 +241,7 @@ src: url(fonts/Alien-Encounters-Regular.ttf);
 }
 
 #footer a:hover {
-  color: white;
+  color: #579B72;
 }
 
 body{
@@ -479,5 +479,11 @@ a:hover {
    50% {
      left: -264.159265359px;
   }
+}
+
+.adult p {
+  font-weight: 200;
+  line-height: 1.5;
+  font-size: 14px;
 }
 
