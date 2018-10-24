@@ -1,0 +1,120 @@
+body {
+  color: #4b4b4b;
+  font-family: sans-serif;
+}
+body a {
+  cursor: pointer;
+  color: #4b4b4b;
+  text-decoration: none;
+}
+body section {
+  margin-bottom: 70px;
+}
+body section h1 {
+  text-transform: uppercase;
+  font-family: Alien-Encounters-Regular !important;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 10px;
+  font-size: 25px;
+  line-height: 1.5;
+}
+body section p, body section a {
+  text-align: center;
+  letter-spacing: 3px;
+}
+span {
+  letter-spacing: 0px;
+}
+p {
+  font-weight: 200;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #4b4b4b;
+}
+
+.blurb p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #2C2C2C;
+  padding: 12px;
+  text-shadow: none !important;
+}
+
+.adult-container {
+  width: 90%;
+  margin: 150px auto;
+}
+
+.adult-card-banner {
+  padding-bottom: 20px;
+  margin: 25px;
+  height: 40vh;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  border-radius: 5px;
+}
+
+.text-card-banner {
+  padding-bottom: 50px;
+  margin: 25px;
+
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  border-radius: 5px;
+}
+
+.text-card {
+  padding-bottom: 20px;
+  margin: 25px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  border-radius: 5px;
+  background: white;
+}
+
+.button {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 175px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    height: 45px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color {
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}

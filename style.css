@@ -52,6 +52,11 @@ src: url(fonts/Alien-Encounters-Regular.ttf);
   .banner h1 {
     font-size: 50px;
   }
+
+  .partner-slide img{
+    width: 150px !important;
+  }
+
 }
 
 /*@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -139,6 +144,21 @@ src: url(fonts/Alien-Encounters-Regular.ttf);
   color: white;
   position: relative;
   border-radius: 5px;
+}
+
+.partner-slide {
+  background: black;
+}
+
+.partner-slide img{
+  width: 200px;
+  margin-top: 0px;
+}
+
+.partner-card {
+  padding: 50px;
+  font-weight: lighter;
+  text-align: center;
 }
 
 .card-container {
@@ -305,6 +325,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   width: 100%;
+  text-align: center;
 }
 
 /* Main navbar */
