@@ -57,6 +57,12 @@ src: url(fonts/Alien-Encounters-Regular.ttf);
     width: 150px !important;
   }
 
+  .navbar-alien-brand img {
+    height: 60px !important;
+    width: 175px !important;
+    padding-bottom: 10px;
+  }
+
 }
 
 /*@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -237,6 +243,24 @@ src: url(fonts/Alien-Encounters-Regular.ttf);
   opacity: 0.1;
 }
 
+.footer-links{
+  font-size: 14px !important;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.footer-links a {
+  padding: 5px;
+  font-weight: bold;
+  font-family: 'open-sans', sans-serif;
+}
+
+.footer-links :hover {
+  color: #579B72;
+}
+
 #footer{
   padding: 50px;
   background: #F5F5F5;
@@ -366,6 +390,7 @@ a:hover {
 .navbar-alien-item {
   cursor: pointer;
   padding: 0 20px;
+  margin-left: -50px;
 }
 
 /* Navbar link */
@@ -507,4 +532,3 @@ a:hover {
   line-height: 1.5;
   font-size: 14px;
 }
-
